@@ -37,6 +37,7 @@
   position: relative;
   z-index: 2;
 }
+
 .form-group ul{
   display: flex;
   list-style: none;
@@ -119,3 +120,40 @@ button{
   margin-top: -25px;
   font-weight: 400;
 }
+#curso {
+  padding-left: 1.5rem;
+  font-size: 20px;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+}
+#curso {
+   margin-top: 1%;
+   text-decoration: none;
+}
+.corpo {
+  background-color: #EFEFEF;
+  width: 90%;
+  height: 2360opx;
+  margin-top: 3%;
+  margin-left: 5%;
+  text-align: center;
+  box-shadow: 5px 5px 3px #b4b4b4;
+}
+.obj {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1%;
+  font-size: 20px;
+}
+pre{
+  display: block;
+  font-family: monospace;
+  white-space-collapse: preserve;
+  text-wrap: nowrap;
+  margin: 1em 0px;
+  text-align: left ;
+  
+}
+
