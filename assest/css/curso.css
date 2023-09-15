@@ -1,6 +1,7 @@
 *{
   margin: 0px;
 }
+
 .header-curso{
   background-color: green;
   display: flex;
@@ -75,8 +76,16 @@ button{
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  flex-direction: column;
+}
+.sobre-curso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
   flex-wrap: wrap;
 }
+
 
 .sobre-image img {
   width: 60vh;
@@ -88,8 +97,19 @@ button{
 }
 
 .sobre-texto {
+  margin-bottom: 1rem;
+}
+
+.sobre-texto-curso {
   padding-left: 4rem;
   margin-top: -20px;
+}
+
+.sobre-texto-curso h5{
+  max-width: 500px;
+  color: #323232;
+  margin-top: 1rem;
+  font-size: 17pt;
 }
 
 .sobre-texto h5 {
@@ -103,28 +123,10 @@ button{
   color: #323232;
 }
 
-.btn-sobre {
-  border: none;
-  outline: none;
-  background: #D7F39E;
-  border: 2px solid white;
-  padding: 10px 10px;
-  border-radius: 5px;
-  font-size: 8pt;
-  color: #323232;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: 0.5s;
-  margin-top: 3rem;
-}
-.btn-sobre:hover {
-  background: white;
-  border: 2px solid #D7F39E;
-}
+
 
 .integrantes{
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 .titulo-integrantes{
   margin-bottom: 1rem;
